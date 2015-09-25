@@ -1,6 +1,5 @@
 hugo -t shiori
 
-
 # Add everything
 git add -A
 
