@@ -2,9 +2,9 @@ baseurl = "http://mistagiggles.github.io/"
 languageCode = "en-us"
 title = "MistaGiggles"
 
-enableLandingPage = true
-landingPageRedirectUrl = "/about/"
-AuthorName = "Matt Shepherd"
+[params]
+    author_name = "Matt Shepherd"
+    twitter_username = "mista_giggles"
 
 [taxonomies]
     tag = "tags"

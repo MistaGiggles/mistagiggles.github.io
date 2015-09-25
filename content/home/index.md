@@ -5,13 +5,5 @@ title = "Mista Giggles"
 
 +++
 
+My personal website for any blog posts, code examples, whatever I feel like posting.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend leo vitae massa pretium porta. Cras scelerisque maximus scelerisque. Nam scelerisque vestibulum maximus. Cras ac eros ultrices, euismod felis quis, rutrum ante. Sed consequat eu risus eget porta. Etiam blandit, diam quis malesuada laoreet, orci sem suscipit ante, et luctus ipsum diam ac est. Nulla facilisis, turpis interdum porta bibendum, diam enim tempus ligula, in pulvinar odio velit sed ex. Proin quis eleifend dui, sed iaculis sapien.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu porttitor mauris, sit amet tempus ex. Pellentesque eget mauris ullamcorper, ornare nibh et, maximus dui. Integer diam metus, dignissim nec cursus quis, accumsan et enim. Sed cursus facilisis sapien in commodo. Cras vel ullamcorper dui. Nullam id nisi metus. Aenean vulputate, ante eu tristique varius, mauris justo ornare arcu, sed fermentum eros nibh ac mauris.
-
-Fusce sit amet metus quis ex pharetra bibendum ut et eros. Pellentesque semper commodo laoreet. Cras lacinia leo sit amet augue condimentum blandit. Nulla egestas tellus at urna tincidunt pellentesque. Maecenas ultricies lacus aliquam libero cursus dictum. Phasellus lorem nunc, sollicitudin vel lorem et, dignissim venenatis est. Integer eget dolor accumsan, tempus diam eu, consectetur leo. Duis dictum ex nisl, sed eleifend risus laoreet ac.
-
-Aliquam mollis, erat in scelerisque semper, nibh lacus accumsan risus, nec interdum enim est et elit. Proin aliquet tortor eu metus auctor, euismod egestas purus varius. Nullam non libero mi. Morbi sed mi auctor, tempor velit ut, ultrices lectus. Praesent ac dolor sit amet tellus placerat efficitur. Nulla dui erat, fermentum sed felis nec, condimentum sollicitudin eros. Pellentesque odio ligula, porta a faucibus eu, vehicula sed sapien. Duis eget est lorem. In porttitor tristique risus, eget tempus tellus fringilla fermentum. Integer lobortis erat diam, ac rutrum augue faucibus eu. Vivamus euismod eleifend leo sit amet fermentum. Integer vitae mollis diam. Sed at arcu eros.
-
-Nulla et consequat felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ac lacus aliquet metus ultricies dignissim. Phasellus accumsan vulputate metus eget interdum. Suspendisse ac leo felis. Etiam tincidunt ullamcorper euismod. Nam eros quam, blandit sed felis et, vestibulum pellentesque leo. Pellentesque mollis auctor purus sed varius. Curabitur aliquet augue nec bibendum tincidunt. Praesent porta est vitae varius hendrerit.

@@ -7,7 +7,7 @@
 
       {{.Content }}
 
-      {{ partial "footer" . }}
+      <!-- {{ partial "footer" . }} -->
 
     {{ end }}
   </div>
@@ -15,9 +15,12 @@
     {{ partial "sidebar.html" . }}
   </div>
 </div>
+<hr />
 <div class="row">
+
   <div class="col-sm-8">
-    {{ range first 10 .Site.Pages.ByDate.Reverse }}
+    <div>Recent Posts:</div>
+    {{ range first 3 .Site.Pages.ByDate.Reverse }}
       {{ if eq .Type "post" }}
         {{ .Render "summary"}}
       {{ end }}
