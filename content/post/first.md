@@ -2,7 +2,6 @@
 date = "2015-09-25T18:17:14+01:00"
 draft = false
 title = "Site Created"
-
 +++
 
 I've now set up github pages to host my site, which allows github users to have a personal static website at the url: \<username\>.github.io
