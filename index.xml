@@ -6,8 +6,22 @@
     <description>Recent content on MistaGiggles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2015 09:27:51 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2015 18:17:14 +0100</lastBuildDate>
     <atom:link href="http://mistagiggles.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Site Created</title>
+      <link>http://mistagiggles.github.io/post/first/</link>
+      <pubDate>Fri, 25 Sep 2015 18:17:14 +0100</pubDate>
+      
+      <guid>http://mistagiggles.github.io/post/first/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve now set up github pages to host my site, which allows github users to have a personal static website at the url: &amp;lt;username&amp;gt;.github.io&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m also using &lt;a href=&#34;https://gohugo.io/ GoHugo&#34;&gt;Hugo&lt;/a&gt; to generate the static site. Hugo is a static site generator, that generates your site from a collection of markdown files, a theme and a configuration file.&lt;/p&gt;
+
+&lt;p&gt;Because my github pages site is also a git repository, the entire source for the site can be view on &lt;a href=&#34;https://github.com/MistaGiggles/mistagiggles.github.io site source&#34;&gt;github&lt;/a&gt;. The master branch represents the generated static site and the &amp;ldquo;blog&amp;rdquo; branch represents the source markdown files. The &amp;ldquo;blog&amp;rdquo; branch is set up with the public pages as a subtree, which allows me to check out the &amp;ldquo;blog&amp;rdquo; branch, make my changes, and run the &amp;ldquo;update.sh&amp;rdquo; script to regenerate the site and push my changes back to the repository.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mista Giggles</title>
@@ -16,16 +30,6 @@
       
       <guid>http://mistagiggles.github.io/home/</guid>
       <description>&lt;p&gt;My personal website for any blog posts, code examples, whatever I feel like posting.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>first</title>
-      <link>http://mistagiggles.github.io/post/first/</link>
-      <pubDate>Thu, 24 Sep 2015 18:17:14 +0100</pubDate>
-      
-      <guid>http://mistagiggles.github.io/post/first/</guid>
-      <description>&lt;p&gt;First post&lt;/p&gt;
 </description>
     </item>
     
