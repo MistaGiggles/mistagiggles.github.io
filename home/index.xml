@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MistaGiggles</title>
-    <link>http://mistagiggles.github.io/</link>
-    <description>Recent content on MistaGiggles</description>
+    <title>Homes on MistaGiggles</title>
+    <link>http://mistagiggles.github.io/home/</link>
+    <description>Recent content in Homes on MistaGiggles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Sep 2015 09:27:51 +0100</lastBuildDate>
-    <atom:link href="http://mistagiggles.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://mistagiggles.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mista Giggles</title>
@@ -26,26 +26,6 @@
 &lt;p&gt;Aliquam mollis, erat in scelerisque semper, nibh lacus accumsan risus, nec interdum enim est et elit. Proin aliquet tortor eu metus auctor, euismod egestas purus varius. Nullam non libero mi. Morbi sed mi auctor, tempor velit ut, ultrices lectus. Praesent ac dolor sit amet tellus placerat efficitur. Nulla dui erat, fermentum sed felis nec, condimentum sollicitudin eros. Pellentesque odio ligula, porta a faucibus eu, vehicula sed sapien. Duis eget est lorem. In porttitor tristique risus, eget tempus tellus fringilla fermentum. Integer lobortis erat diam, ac rutrum augue faucibus eu. Vivamus euismod eleifend leo sit amet fermentum. Integer vitae mollis diam. Sed at arcu eros.&lt;/p&gt;
 
 &lt;p&gt;Nulla et consequat felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ac lacus aliquet metus ultricies dignissim. Phasellus accumsan vulputate metus eget interdum. Suspendisse ac leo felis. Etiam tincidunt ullamcorper euismod. Nam eros quam, blandit sed felis et, vestibulum pellentesque leo. Pellentesque mollis auctor purus sed varius. Curabitur aliquet augue nec bibendum tincidunt. Praesent porta est vitae varius hendrerit.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>first</title>
-      <link>http://mistagiggles.github.io/post/first/</link>
-      <pubDate>Thu, 24 Sep 2015 18:17:14 +0100</pubDate>
-      
-      <guid>http://mistagiggles.github.io/post/first/</guid>
-      <description>&lt;p&gt;First post&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://mistagiggles.github.io/about/</link>
-      <pubDate>Thu, 24 Sep 2015 18:17:05 +0100</pubDate>
-      
-      <guid>http://mistagiggles.github.io/about/</guid>
-      <description>&lt;p&gt;About.md&lt;/p&gt;
 </description>
     </item>
     
