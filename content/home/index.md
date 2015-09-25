@@ -5,7 +5,6 @@ title = "Mista Giggles"
 
 +++
 
-= Homepage =
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend leo vitae massa pretium porta. Cras scelerisque maximus scelerisque. Nam scelerisque vestibulum maximus. Cras ac eros ultrices, euismod felis quis, rutrum ante. Sed consequat eu risus eget porta. Etiam blandit, diam quis malesuada laoreet, orci sem suscipit ante, et luctus ipsum diam ac est. Nulla facilisis, turpis interdum porta bibendum, diam enim tempus ligula, in pulvinar odio velit sed ex. Proin quis eleifend dui, sed iaculis sapien.
 

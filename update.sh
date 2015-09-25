@@ -7,5 +7,5 @@ git add -A
 git commit -m "Updating site" && git push origin blog
 
 # Push the public subtree to the gh-pages branch
-git subtree push --prefix=public https://github.com/MistaGiggles/mistagiggles.github.io master --squash
-git subtree push --prefix=public https://github.com/MistaGiggles/hugo-theme-shiori master --squash
+git subtree push --prefix=public https://mistagiggles@github.com/MistaGiggles/mistagiggles.github.io master --squash
+git subtree push --prefix=public https://mistagiggles@github.com/MistaGiggles/hugo-theme-shiori master --squash
