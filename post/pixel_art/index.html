@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://mistagiggles.github.io/stylesheets/shiori.css">
+    <link href='//fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://mistagiggles.github.io/favicon.ico">
+    <title>Adventures Into Pixel Art | MistaGiggles</title>
+    
+    
+
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-toggle-wrapper visible-xs">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <a href="http://mistagiggles.github.io" class="navbar-brand">MistaGiggles</a>
+        </div>
+        <div class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="navbar-nav nav">
+            <li><a href="http://mistagiggles.github.io">Home</a></li>
+<li><a href="http://mistagiggles.github.io/post">Archive</a></li>
+
+          </ul>
+          <ul class="navbar-nav nav navbar-right">
+            
+
+<li class="hidden-xs">
+    <a href="https://github.com/MistaGiggles">
+        <img src="http://mistagiggles.github.io/images/GitHub-Mark-32px.png" allowtransparency="true" frameborder="0" scrolling="0" style="margin-middle: 14px;" />
+    </a>
+</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+<div class="row">
+  <div class="col-sm-8">
+    <div class="post-header">
+      <h1 class="post-title-main">Adventures Into Pixel Art</h1>
+      <p class="text-muted">Mar 9, 2016</p>
+
+    </div>
+    <div class="post-content">
+      <p>My programmer art has always been basic and very crude. Early attempts at pixel art back in my GameMaker 6 days was either flat shaded lines and circles, or roughly traces of sprites from other games.</p>
+
+<p>I stumbled across a tutorial on youtube describing how to create simple repeating tiles. I followed along using a mouse and over the course of a couple of hours I put together a small tile set for a castle/dungeon:</p>
+
+
+<figure >
+    
+        <img src="/images/pixel_art/tile_set.png" />
+    
+    
+    <figcaption>
+        <h4>A Simple Tileset</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Putting this together into a simple map:</p>
+
+
+<figure >
+    
+        <img src="/images/pixel_art/map.png" />
+    
+    
+    <figcaption>
+        <h4>A Test Map</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I was pretty pleased with the result, and I was surprised by how easy it was to put together (especially the simple repeating tiles).</p>
+
+<p>This inspired me to try and take it further, character sprites.</p>
+
+<p>I decided to have a go at drawing and animating some sprites using Pyxel Edit and my trackpad. The efforts were not great, and took far too long but I did get <em>something</em>: (Using <a href="https://www.reddit.com/r/PixelArt/comments/48ddm8/occcnewbie_first_time_pixel_art_tried_to_make_an/">this</a> as a reference as some habits are hard to break)</p>
+
+
+<figure >
+    
+        <img src="/images/pixel_art/first_attempt.png" />
+    
+    
+    <figcaption>
+        <h4>My pitiful first attempt</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I always liked the idea of giving a graphics tablet a go, I felt like it would be much easier and quicker than using a mouse so I decided to take the plunge and buy a cheap Wacom tablet (a small Intuos Draw).</p>
+
+<p>I’ve recently had the idea of making a simple Gauntlet/HammerWatch style hack and slash, something with very limited scope in order to release something I had created from start to finish. My actual creative talent for art being non-existent, I grabbed a reference image of the paladin from hammer watch to get me started.</p>
+
+
+<figure >
+    
+        <img src="/images/pixel_art/hw_ref.png" />
+    
+    
+    <figcaption>
+        <h4>HammerWatch Paladin</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>I attempted to redraw the basic “facing forward” sprite, without tracing it and making it too much of a copy. This gave me a base shape with a decent enough perspective and shape. From there I made a simple 2-frame walking animation, and when I was happy with that I extended it to a “walking up” idle and walking animation and then onto an east animation that I flipped for the walking west animation. This is where I started using layers, to position the sword and shield independently of the body.</p>
+
+<p>
+<figure >
+    
+        <img src="/images/pixel_art/frames_1.png" />
+    
+    
+    <figcaption>
+        <h4>Movement Frames</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/images/pixel_art/frames_2.png" />
+    
+    
+    <figcaption>
+        <h4>Movement Frames</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+<p>I’m pretty happy with the result, and while I admit that the sprite still looks very similar to the HammerWatch version, I think I’ve learnt a lot from the process. Enough I think to attempt drawing and animating a character of my own creation.</p>
+
+<p>In total it’s taken about 4 hours to produce all of these frames, which I’m pretty pleased about considering this includes time spent undoing a lot of work when I accidentally merged some layers and had to redo them correctly.</p>
+
+<p>After fiddling around with the sprite sheet in unity, and trying to get my head around animation clips and animators (I regret not looking up the documentation which would have saved me a bunch of time) I was finally able to get my character into a scene with idle and moving animations. I made use of BlendTrees to map horizontal/vertical movement values to the correct walking and idle sprites.</p>
+
+<p>I hadn’t delved into any of Unity’s animation support before, previously I had controlled sprite animation in scripts by explicitly settings frames to display via script or setting 3d model animations via script. Once I had figured out how the state machines were working and how to pipe values into them, I was pleasantly surprised at how easy it was to implement the logic.</p>
+
+<p>Now I have a scene I can walk around with nicely handled animation transitions! (albeit on a static image of the map)</p>
+
+
+<figure >
+    
+        <img src="/images/pixel_art/animation.gif" />
+    
+    
+    <figcaption>
+        <h4>Together in Unity</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>For a couple of evening’s work, I’m very pleased with what I’ve been able to produce. I think the next stage is to finish off the attack animations for east/west, wire these into unity and then get around to creating and animating something to attack.</p>
+
+<p>If I keep the scope small, I should have something playable within a few weeks (if I can keep this momentum up).</p>
+
+    </div>
+    <div class="post-footer">
+      <a href="http://mistagiggles.github.io/post" class="btn btn-primary btn-block btn-lg">View All 2 Articles →</a>
+
+    </div>
+    
+  </div>
+  <div class="col-sm-4">
+    <h3>
+  Author
+</h3>
+
+<p>
+  <div class="media">
+    <img src="http://mistagiggles.github.io/images/emblem2.png" alt="Matt Shepherd" class="pull-left"  width="64px" >
+    <div class="media-body" >
+      <h4 class="media-middle" >Matt Shepherd</h4>
+    </div>
+  </div>
+</p>
+
+
+<p><a href="https://twitter.com/mista_giggles" class="twitter-follow-button" data-show-screen-name="false" data-show-count="true" data-dnt="true" data-size="large">Follow @mista_giggles</a></p>
+
+  </div>
+</div>
+      <div class="row footer">
+        <div class="col-sm-12 text-center">
+          &copy; 2015.
+Built with <a href="http://gohugo.io/">Hugo</a> and
+<a href="https://github.com/chibicode/hugo-theme-shiori">Shiori Theme</a>.
+
+        </div>
+      </div>
+    </div>
+    <script src="http://mistagiggles.github.io/javascripts/shiori.js"></script>
+    
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  </body>
+</html>
+

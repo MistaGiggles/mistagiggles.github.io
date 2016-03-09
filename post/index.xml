@@ -6,8 +6,145 @@
     <description>Recent content in Posts on MistaGiggles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2015 18:17:14 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 09 Mar 2016 07:08:34 +0000</lastBuildDate>
     <atom:link href="http://mistagiggles.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adventures Into Pixel Art</title>
+      <link>http://mistagiggles.github.io/post/pixel_art/</link>
+      <pubDate>Wed, 09 Mar 2016 07:08:34 +0000</pubDate>
+      
+      <guid>http://mistagiggles.github.io/post/pixel_art/</guid>
+      <description>&lt;p&gt;My programmer art has always been basic and very crude. Early attempts at pixel art back in my GameMaker 6 days was either flat shaded lines and circles, or roughly traces of sprites from other games.&lt;/p&gt;
+
+&lt;p&gt;I stumbled across a tutorial on youtube describing how to create simple repeating tiles. I followed along using a mouse and over the course of a couple of hours I put together a small tile set for a castle/dungeon:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/tile_set.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;A Simple Tileset&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Putting this together into a simple map:&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/map.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;A Test Map&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I was pretty pleased with the result, and I was surprised by how easy it was to put together (especially the simple repeating tiles).&lt;/p&gt;
+
+&lt;p&gt;This inspired me to try and take it further, character sprites.&lt;/p&gt;
+
+&lt;p&gt;I decided to have a go at drawing and animating some sprites using Pyxel Edit and my trackpad. The efforts were not great, and took far too long but I did get &lt;em&gt;something&lt;/em&gt;: (Using &lt;a href=&#34;https://www.reddit.com/r/PixelArt/comments/48ddm8/occcnewbie_first_time_pixel_art_tried_to_make_an/&#34;&gt;this&lt;/a&gt; as a reference as some habits are hard to break)&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/first_attempt.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;My pitiful first attempt&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I always liked the idea of giving a graphics tablet a go, I felt like it would be much easier and quicker than using a mouse so I decided to take the plunge and buy a cheap Wacom tablet (a small Intuos Draw).&lt;/p&gt;
+
+&lt;p&gt;I’ve recently had the idea of making a simple Gauntlet/HammerWatch style hack and slash, something with very limited scope in order to release something I had created from start to finish. My actual creative talent for art being non-existent, I grabbed a reference image of the paladin from hammer watch to get me started.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/hw_ref.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;HammerWatch Paladin&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I attempted to redraw the basic “facing forward” sprite, without tracing it and making it too much of a copy. This gave me a base shape with a decent enough perspective and shape. From there I made a simple 2-frame walking animation, and when I was happy with that I extended it to a “walking up” idle and walking animation and then onto an east animation that I flipped for the walking west animation. This is where I started using layers, to position the sword and shield independently of the body.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/frames_1.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Movement Frames&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/frames_2.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Movement Frames&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I’m pretty happy with the result, and while I admit that the sprite still looks very similar to the HammerWatch version, I think I’ve learnt a lot from the process. Enough I think to attempt drawing and animating a character of my own creation.&lt;/p&gt;
+
+&lt;p&gt;In total it’s taken about 4 hours to produce all of these frames, which I’m pretty pleased about considering this includes time spent undoing a lot of work when I accidentally merged some layers and had to redo them correctly.&lt;/p&gt;
+
+&lt;p&gt;After fiddling around with the sprite sheet in unity, and trying to get my head around animation clips and animators (I regret not looking up the documentation which would have saved me a bunch of time) I was finally able to get my character into a scene with idle and moving animations. I made use of BlendTrees to map horizontal/vertical movement values to the correct walking and idle sprites.&lt;/p&gt;
+
+&lt;p&gt;I hadn’t delved into any of Unity’s animation support before, previously I had controlled sprite animation in scripts by explicitly settings frames to display via script or setting 3d model animations via script. Once I had figured out how the state machines were working and how to pipe values into them, I was pleasantly surprised at how easy it was to implement the logic.&lt;/p&gt;
+
+&lt;p&gt;Now I have a scene I can walk around with nicely handled animation transitions! (albeit on a static image of the map)&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://mistagiggles.github.io/images/pixel_art/animation.gif&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Together in Unity&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;For a couple of evening’s work, I’m very pleased with what I’ve been able to produce. I think the next stage is to finish off the attack animations for east/west, wire these into unity and then get around to creating and animating something to attack.&lt;/p&gt;
+
+&lt;p&gt;If I keep the scope small, I should have something playable within a few weeks (if I can keep this momentum up).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Site Created</title>
